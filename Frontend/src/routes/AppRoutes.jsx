@@ -6,7 +6,7 @@ import Login from '../pages/login.jsx';
 const AppRoutes = () => {
     <Router>
         <Routes>
-            <Route path='/' element={<Landing/>}/>
+            <Route path='/' element={<IaModel/>}/>
             <Route path='/Login' element={<Login/>}/>
             <Route path='/IaModel' element={<IaModel/>}/>
         </Routes>
